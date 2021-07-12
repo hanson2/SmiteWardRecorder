@@ -124,7 +124,7 @@ class ImagePanel extends JPanel {
 
 	public ImagePanel(MapListener mapListener) {
 		try {
-			image = ImageIO.read(new File("C:\\Users\\Keith\\eclipse-workspace\\SmiteWardRecorder\\BaseS8 map.png"));
+			image = ImageIO.read(new File("BaseS8 map.png"));
 			this.setPreferredSize(new Dimension(image.getWidth(), image.getHeight()));
 		} catch (IOException ex) {
 			System.out.println(ex);
